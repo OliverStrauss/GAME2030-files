@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "302be0ab-1e56-4e31-89d5-159f54908a71",
+  "name": "Anniebackground",
+  "symbol": "tileset_anniebackground",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Anniebackground.png"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "30c81e1d-ff01-4eb7-bdbf-66a4e9d5cc94",
+  "name": "OTHERBIG",
+  "symbol": "bg_otherbig",
+  "width": 160,
+  "height": 18,
+  "imageWidth": 1280,
+  "imageHeight": 144,
+  "filename": "OTHERBIG.png",
+  "tileColors": "",
+  "autoColor": false
+}

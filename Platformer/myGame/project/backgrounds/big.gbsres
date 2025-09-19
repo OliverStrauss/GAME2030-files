@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3c433846-81c8-479f-bc28-70093750218d",
+  "name": "BIG",
+  "symbol": "bg_big",
+  "width": 255,
+  "height": 144,
+  "imageWidth": 10240,
+  "imageHeight": 1152,
+  "filename": "BIG.png",
+  "tileColors": "",
+  "autoColor": false
+}
