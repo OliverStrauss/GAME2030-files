@@ -1,0 +1,95 @@
+{
+  "_resourceType": "script",
+  "id": "0773dc82-f207-4613-8c52-d95aa2fb2215",
+  "name": "UpdateHealth",
+  "description": "update visual health marker equal to variable HEALTH\n",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": false
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_12",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "d77965d5-3ad1-4ab6-bc28-9e187f017917"
+            },
+            "id": "57bc4060-a89f-47f9-872c-387b8261bf29"
+          }
+        ],
+        "false": []
+      },
+      "id": "c360c4f9-5932-4278-90fb-d1077c49d76e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "72a16867-6bc6-4803-9d96-8dc41118ff3b"
+            },
+            "id": "8da0320a-b20b-45fb-b8ec-5e7477f2e8cd"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "6b00223b-c9db-460d-9785-eccdf62f5ec5"
+            },
+            "id": "2b853c0b-e364-40fc-b41a-eefc985e0c90"
+          }
+        ]
+      },
+      "id": "41d26c2b-d056-4f7d-8a4d-cd01ab5e7e62"
+    }
+  ]
+}
