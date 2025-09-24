@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4912bee2-387a-472f-ae4f-6679b6149517",
-  "_index": 3,
+  "_index": 2,
   "type": "TOPDOWN",
   "name": "ui/Title Screen",
   "symbol": "scene_title_screen",
@@ -9,10 +9,14 @@
   "y": 76,
   "width": 20,
   "height": 18,
-  "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
+  "backgroundId": "eff14218-927d-4961-a4a3-78db94398d04",
   "tilesetId": "",
-  "paletteIds": [],
-  "spritePaletteIds": [],
+  "paletteIds": [
+    "22dbd506-d7d4-41a6-9d5c-a9b9461ab204"
+  ],
+  "spritePaletteIds": [
+    "0cae84a7-ed50-4b05-b39a-66be5af7ffd2"
+  ],
   "autoFadeSpeed": 1,
   "script": [
     {
@@ -84,11 +88,11 @@
                     "sceneId": "6bcc8670-b44d-4892-a37a-77a35f5a7668",
                     "x": {
                       "type": "number",
-                      "value": 8
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 13
+                      "value": 10
                     },
                     "direction": "right",
                     "fadeSpeed": "4"
@@ -133,5 +137,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "00168+",
+  "playerSpriteSheetId": "2f2d492c-dba2-434c-93c9-d1301e88d5e9"
 }

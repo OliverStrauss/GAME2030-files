@@ -1,7 +1,7 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-  "startX": 0,
+  "startSceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+  "startX": 2,
   "startY": 0,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
@@ -10,7 +10,7 @@
   "sgbEnabled": false,
   "customHead": "",
   "defaultBackgroundPaletteIds": [
-    "default-bg-1",
+    "22dbd506-d7d4-41a6-9d5c-a9b9461ab204",
     "default-bg-2",
     "default-bg-3",
     "default-bg-4",
@@ -20,10 +20,10 @@
     "default-ui"
   ],
   "defaultSpritePaletteIds": [
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
+    "0c1ae752-a0fd-4f4d-84d1-70d92f38bab1",
+    "3a9d16ae-daae-47a9-b5d2-690bee50b4b9",
+    "3a9d16ae-daae-47a9-b5d2-690bee50b4b9",
+    "3a9d16ae-daae-47a9-b5d2-690bee50b4b9",
     "default-sprite",
     "default-sprite",
     "default-sprite",

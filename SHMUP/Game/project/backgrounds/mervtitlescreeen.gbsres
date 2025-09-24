@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "eff14218-927d-4961-a4a3-78db94398d04",
+  "name": "mervTitleScreeen",
+  "symbol": "bg_mervtitlescreeen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "mervTitleScreeen.png",
+  "tileColors": "00168+"
+}

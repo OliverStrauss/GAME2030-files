@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "dac0cc0d-f549-499c-9deb-f57cebe5b005",
+  "name": "annieBackground",
+  "symbol": "bg_anniebackground",
+  "width": 255,
+  "height": 18,
+  "imageWidth": 2040,
+  "imageHeight": 144,
+  "filename": "annieBackground.png",
+  "tileColors": ""
+}
