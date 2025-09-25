@@ -1,0 +1,39 @@
+{
+  "_resourceType": "script",
+  "id": "4d645e57-06ff-4fe4-9785-46f1b8442375",
+  "name": "updateVar18",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_13",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "b2e179d2-bd92-49b7-b837-81e273ed7412"
+    }
+  ]
+}

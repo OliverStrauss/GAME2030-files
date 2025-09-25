@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f097d5b6-99ea-4148-a990-3b617e5c3782",
+  "name": "levelSelect",
+  "symbol": "sprite_levelselect",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "levelSelect.png",
+  "tileColors": "",
+  "autoColor": false
+}

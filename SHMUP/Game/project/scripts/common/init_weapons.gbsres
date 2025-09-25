@@ -21,7 +21,7 @@
             "id": "b5d82058-ed83-492e-ad43-a011d637d9e2",
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "spriteSheetId": "450a3571-cc76-41be-8c95-818d60b83c59",
+              "spriteSheetId": "9bdd2c55-298f-4d34-9dd6-c6734b210336",
               "actorId": "player",
               "direction": "right",
               "speed": 3,

@@ -136,7 +136,7 @@
             "id": "d4c2b241-c655-4348-8d5d-e61e38776984",
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "spriteSheetId": "32c48a4d-6ce6-4aca-a23a-a6300b5c9e3b",
+              "spriteSheetId": "8c8337b9-bf82-4361-9518-1a0609d6302b",
               "actorId": "0",
               "direction": "left",
               "speed": 1,

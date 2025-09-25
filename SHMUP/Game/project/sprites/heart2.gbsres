@@ -3,11 +3,11 @@
   "id": "72a16867-6bc6-4803-9d96-8dc41118ff3b",
   "name": "heart2",
   "symbol": "sprite_heart2",
-  "numFrames": 2,
+  "numFrames": 4,
   "filename": "heart2.png",
-  "checksum": "d52eca844d5219edd1dd2e0320cdc6fd7afec3af",
-  "width": 32,
-  "height": 32,
+  "checksum": "536b372b533baff62e851acb7ede7d1b8db02ac4",
+  "width": 64,
+  "height": 64,
   "states": [
     {
       "id": "4f6e57c0-9a05-4f62-90b5-82cb6856603d",
@@ -98,6 +98,58 @@
                   "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
+                },
+                {
+                  "id": "a1dea922-6a9e-4756-892f-d14d1e5175e4",
+                  "x": -24,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 48,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                },
+                {
+                  "id": "5747a21c-54a3-4dc0-bc8c-6e963a2aa095",
+                  "x": -16,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 48,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                },
+                {
+                  "id": "daae7412-4962-4975-83e1-1603b2d91f81",
+                  "x": -8,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 48,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                },
+                {
+                  "id": "da47b1f5-b159-44b5-aaf2-f98227b14a68",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 48,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
                 }
               ]
             }
@@ -169,9 +221,9 @@
       ]
     }
   ],
-  "numTiles": 5,
-  "canvasWidth": 32,
-  "canvasHeight": 32,
+  "numTiles": 3,
+  "canvasWidth": 64,
+  "canvasHeight": 64,
   "boundsX": 0,
   "boundsY": 0,
   "boundsWidth": 16,

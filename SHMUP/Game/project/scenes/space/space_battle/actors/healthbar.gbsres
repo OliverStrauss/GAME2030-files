@@ -4,7 +4,7 @@
   "name": "HEALTHBAR",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "d77965d5-3ad1-4ab6-bc28-9e187f017917",
+  "spriteSheetId": "6087d1c1-ad63-4733-a4c2-1247ba6bb558",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -21,7 +21,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 1,
+  "x": 3,
   "y": 17,
   "_index": 16
 }

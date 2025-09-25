@@ -50,7 +50,7 @@
       "id": "1c0a8373-81a3-4c06-8488-bb753ecf1b80",
       "command": "EVENT_LAUNCH_PROJECTILE",
       "args": {
-        "spriteSheetId": "32c48a4d-6ce6-4aca-a23a-a6300b5c9e3b",
+        "spriteSheetId": "8c8337b9-bf82-4361-9518-1a0609d6302b",
         "actorId": "0",
         "direction": "left",
         "speed": 1,
