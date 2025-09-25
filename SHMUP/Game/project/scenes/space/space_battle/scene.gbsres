@@ -91,6 +91,18 @@
       "id": "f111e1c1-d88a-451b-9c1c-0965f2d36da4"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0773dc82-f207-4613-8c52-d95aa2fb2215",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "18"
+        },
+        "$actor[0]$": "201d39b8-26f5-4347-82e3-82e2feacf010"
+      },
+      "id": "d1224920-e22e-404f-81f6-acfc03bebb9a"
+    },
+    {
       "id": "ffbc81cc-7fd2-4b40-a1c7-98759a5f4565",
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
