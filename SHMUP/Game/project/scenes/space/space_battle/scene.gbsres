@@ -5,8 +5,8 @@
   "type": "SHMUP",
   "name": "space/Space Battle",
   "symbol": "scene_space_battle",
-  "x": 568,
-  "y": 304,
+  "x": 424,
+  "y": 200,
   "width": 255,
   "height": 18,
   "backgroundId": "7d641074-520d-4d0c-9d40-ec8e2d27b7b0",
@@ -199,7 +199,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+              "sceneId": "79b90af2-1a0b-47ea-bb21-ca70aef092fc",
               "x": {
                 "type": "number",
                 "value": 18

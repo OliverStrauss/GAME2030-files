@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
   "x": 568,
@@ -22,6 +22,42 @@
         "actorId": "$self$"
       },
       "id": "12b697db-4ead-4773-a1b6-ac02301568e1"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "29",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "26e11091-c3e2-4fba-869f-fb1793e7cec4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Merv the alien just busted \nout of Area 51 with a jet \npack. Armed with an m16,\nhe is heading to Vegas to \nwin big, buy a rocket, \nand get home.\n(press A to continue)"
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 8,
+        "maxHeight": 8,
+        "textX": -1,
+        "textY": -1,
+        "textHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "c9785ae5-0e17-4848-9862-0ce16718a3bb"
     },
     {
       "command": "EVENT_MENU",
@@ -56,7 +92,8 @@
             "value": 1
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -122,13 +159,6 @@
         ]
       },
       "id": "4b958132-5b0e-45f7-84ea-97fc2c0a0644"
-    },
-    {
-      "command": "EVENT_FADE_OUT",
-      "args": {
-        "speed": "2"
-      },
-      "id": "70f5b49e-6c28-459f-85d7-a1560c6626b4"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

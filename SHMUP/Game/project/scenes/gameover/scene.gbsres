@@ -1,0 +1,67 @@
+{
+  "_resourceType": "scene",
+  "id": "79b90af2-1a0b-47ea-bb21-ca70aef092fc",
+  "_index": 3,
+  "name": "GAMEOVER",
+  "backgroundId": "7f676abc-78ee-47b3-aed5-0312bcf7b59f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "22dbd506-d7d4-41a6-9d5c-a9b9461ab204"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 875.7575699992938,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "THE US MILITARY HAS\nKILLED MERV :( \n(Press A to play again)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "61060091-6adb-481f-b7b1-89a5b74c3c9d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ee85127c-5e0d-48e2-adfc-3b5acaee256b",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "388db581-abcd-4785-922e-6c4901488172"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

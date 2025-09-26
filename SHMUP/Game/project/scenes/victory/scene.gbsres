@@ -1,0 +1,80 @@
+{
+  "_resourceType": "scene",
+  "id": "447afc48-cf95-4b90-a57d-aaa4fe232865",
+  "_index": 4,
+  "name": "VICTORY",
+  "backgroundId": "890a5dd6-930f-41e7-aa7f-0e61553431fc",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [
+    "dc7da2a6-1eb2-47d7-ae46-a30ee580ef23",
+    "",
+    "0c1ae752-a0fd-4f4d-84d1-70d92f38bab1",
+    "22dbd506-d7d4-41a6-9d5c-a9b9461ab204",
+    "22dbd506-d7d4-41a6-9d5c-a9b9461ab204",
+    "0cae84a7-ed50-4b05-b39a-66be5af7ffd2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_0",
+  "x": 1717.4499538078142,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "5bef3b15-f472-46e0-8dec-ecf3c6cacd55"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "MERV IS SAVED NOW ITS TIME FOR HIM \nTO WIN BIG AND BEAT\nTHE ODDS. \n(press A to play again)"
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 0,
+        "textY": 0,
+        "textHeight": 4,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "27aa3200-50c5-4b7b-ac7b-65a5352d5164"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ee85127c-5e0d-48e2-adfc-3b5acaee256b",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "a8e78344-50f6-4157-afd4-90d126a04f74"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
